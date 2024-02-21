@@ -14,3 +14,18 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+//connect to Mongodb
+
+const uri = 'mongodb://localhost:27017/';
+
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    console.log('Connected to MongoDB');
+    // Start your Express server once connected
+    app.listen(port, () => {
+      console.log(`Server is running on port ${port}`);
+    });
+  })
+  .catch(err => console.error('Error connecting to MongoDB:', err));
+
+
