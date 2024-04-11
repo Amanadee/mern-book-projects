@@ -37,6 +37,14 @@ async function run() {
     //create a collection of documents
     const bookcollections = client.db("BookInventory").collection("books");
 
+    app.post("/save-book",async(req, res)=>{
+      const params = req.params;
+      const body = req.body;
+      console.log(params, body)
+      const result = await bookcollections.insertOne(body);
+      res.send(result);
+    })
+
     //insert a book to the db:post method
 
     app.post("/upload-book",async(req,res)=>{
@@ -45,7 +53,7 @@ async function run() {
       res.send(result);
     })
     //get all books from the database
-    app.get("/all-books", async(req, res)=>{
+     app.get("/all-books", async(req, res)=>{
       const booksCursor = bookcollections.find();
       const books = await booksCursor.toArray();
       res.send(books);
@@ -86,6 +94,19 @@ async function run() {
       const result = await bookcollections.find(query).toArray();
       res.send(result);
     })
+    
+    // to get single book data
+    app.get("/book/:id",async(req, res)=>{
+      const id = req.params.id;
+      const filter = {_id:new ObjectId(id)};
+      const result = await bookcollections.findOne(filter);
+      res.send(result);
+
+    })
+
+
+
+
 
      //Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });

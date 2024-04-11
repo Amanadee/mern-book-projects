@@ -1,0 +1,17 @@
+.flex_me{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.sidebar-menu-text{
+    padding-left: 5px;
+}
+
+.sidebar{
+    margin-top: 70px;
+    height: 100%;
+    position: absolute;
+    top: -6px;
+    width: 160px;
+}
