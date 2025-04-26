@@ -35,24 +35,11 @@ Developing a web-based Library-Management application to manage library Service 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Roadmap
-- [x] Setting Up the repo for the group
-- [x] Resource Gathering
-- [x] Front page development
-- [x] Sub page develpment
-- [x] Designing a database and UML model diagram 
-- [x] Programming of Java Server Pages 
-- [x] Testing
-- [x] Use of Design Patterns such as MVC 
-- [x] Clear demonstrations of your prototype JSPs 
+ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contact
 
-Amantha Nadeeshan : 
-
-Project Link  : 
 
 
 
