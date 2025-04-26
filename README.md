@@ -3,7 +3,6 @@
 <p align="center"><b> Developing a Library-Management-System which facilitates to developing a mobile application... </b> </p>
 <p> In the contemporary era marked by rapid technological advancements, our approaches to information management and accessibility are undergoing significant transformations. The Library Management System (LMS) we propose aims to address environmental concerns, enhance user convenience, and elevate book accessibility. This initiative seeks to revolutionize the operational dynamics of libraries and the production of books. </p>
 <details>
-  <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
