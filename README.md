@@ -39,13 +39,12 @@ publishing and the environmental effects that come with it
 
  
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<
 
 
 
