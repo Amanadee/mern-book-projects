@@ -22,7 +22,7 @@ Our LMS will be an extensive online resource thst meets the requirements of writ
 as readers.It will give consumers all over the world access to a huge library of ebooks,including uncommon and specialist publications.Futhermore, our LMS will provide
 writers with a digital publication platform, doing away with the requirement for paper
 publishing and the environmental effects that come with it
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ### Built With
 * React
@@ -35,7 +35,6 @@ publishing and the environmental effects that come with it
 * JSP
 * Java Beans
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
  
 
